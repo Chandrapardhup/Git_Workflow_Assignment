@@ -1,0 +1,88 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir Git_Workflow_Assignment
+Creates the project directory.
+
+2. cd Git_Workflow_Assignment
+Navigates into the project directory.
+
+3. git init -b main
+Initializes a local Git repository with main as the default branch.
+
+4. git status
+Displays the current repository status and changed files.
+
+5. git config --global user.name "Your Name"
+Configures the Git username, if required.
+
+6. git config --global user.email "your-email@example.com"
+Configures the Git email, if required.
+
+7. git add index.html about.html
+Stages the initial HTML files for committing.
+
+8. git commit -m "Initial commit: Add homepage and about page"
+Creates the first commit.
+
+9. git add index.html
+Stages the modified homepage.
+
+10. git commit -m "Update homepage content"
+Creates the second commit.
+
+11. git branch feature
+Creates a new branch named feature.
+
+12. git switch feature
+Switches to the feature branch.
+
+13. git add about.html
+Stages the changes made to the about page.
+
+14. git commit -m "Add new information to about page"
+Records the feature branch changes.
+
+15. git switch main
+Switches back to the main branch.
+
+16. git merge --no-ff feature -m "Merge feature branch into main"
+Merges the feature branch into main and creates a visible merge commit.
+
+17. git log --oneline --graph --all
+Displays the commit history and branch structure.
+
+18. git status --ignored
+Displays repository status, including ignored files.
+
+19. git add .gitignore
+Stages the .gitignore file.
+
+20. git commit -m "Add gitignore rules for logs and temp folder"
+Commits the ignore rules.
+
+21. git add temporary_note.txt
+Stages the temporary note file.
+
+22. git commit -m "Add temporary note for undo demonstration"
+Creates an additional commit for demonstrating the undo operation.
+
+23. git revert HEAD
+Creates a new commit that reverses the latest commit.
+
+24. git remote add origin YOUR_REPOSITORY_URL
+Connects the local repository to the public GitHub repository.
+
+25. git remote -v
+Displays the configured remote repository URLs.
+
+26. git push -u origin main
+Pushes the main branch to GitHub and configures upstream tracking.
+
+27. git push -u origin feature
+Pushes the feature branch to GitHub and configures upstream tracking.
+
+28. git branch -r
+Displays the remote branches available on GitHub.
+
+29. git log --oneline --graph --all
+Verifies the complete commit history.
